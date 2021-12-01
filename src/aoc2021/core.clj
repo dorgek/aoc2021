@@ -1,7 +1,8 @@
 (ns aoc2021.core
-  (:gen-class))
+  (:gen-class)
+  (:require [aoc2021.day1]))
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (aoc2021.day1/day1))

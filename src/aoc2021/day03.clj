@@ -1,4 +1,4 @@
-(ns aoc2021.day3
+(ns aoc2021.day03
     (:use clojure.java.io))
 
 (def BIT_SIZE 12)
@@ -80,7 +80,7 @@
 )
 
 (defn day3 []
-    (def input_data (read_input "resources/day3.txt"))
+    (def input_data (read_input "resources/day03.txt"))
 
     (part1 input_data)
     (part2 input_data)

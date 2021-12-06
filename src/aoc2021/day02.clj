@@ -1,4 +1,4 @@
-(ns aoc2021.day2
+(ns aoc2021.day02
     (:use clojure.java.io))
 
 (defn read_input [location]
@@ -48,7 +48,7 @@
 )
 
 (defn day2 [] 
-    (def input_data (read_input "resources/day2.txt"))
+    (def input_data (read_input "resources/day02.txt"))
     
     (part1 input_data)
     (part2 input_data)

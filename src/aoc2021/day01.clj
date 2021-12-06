@@ -1,4 +1,4 @@
-(ns aoc2021.day1
+(ns aoc2021.day01
     (:use clojure.java.io))
 
 (defn read_input [location]
@@ -29,7 +29,7 @@
 )
 
 (defn day1 []
-    (def input_data (read_input "resources/day1.txt"))
+    (def input_data (read_input "resources/day01.txt"))
 
     (print "Part one: ")
     (println ( count_result input_data ))

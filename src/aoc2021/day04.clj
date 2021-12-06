@@ -1,4 +1,4 @@
-(ns aoc2021.day4
+(ns aoc2021.day04
     (:use clojure.java.io)
     (:require [clojure.string :as str])
 )
@@ -128,7 +128,7 @@
 )
 
 (defn day4 [] 
-    (let [bingo-boards bingo-round] (read-input "resources/day4.txt"))
+    (let [bingo-boards bingo-round] (read-input "resources/day04.txt"))
 
     (part1 bingo-boards bingo-round)
     (part2 bingo-boards bingo-round)

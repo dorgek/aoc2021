@@ -9,9 +9,11 @@
   (:require [aoc2021.day07])
   (:require [aoc2021.day08])
   (:require [aoc2021.day09])
+  (:require [aoc2021.day10])
 )
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (aoc2021.day09/day9))
+  (aoc2021.day10/day10)
+)

@@ -1,6 +1,10 @@
 # aoc2021
 
-FIXME: description
+Time Executions in msecs: 
+
+| Day         | Read Data   | Part One    | Part Two    |
+| ----------- | ----------- | ----------- | ----------- |
+| Day 12:      | 1.850866   | 240.66614   | 2734.697839 |
 
 ## Installation
 
